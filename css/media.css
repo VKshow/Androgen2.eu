@@ -1,0 +1,271 @@
+
+/* width adjusting */
+
+@media (max-width: 1025px){
+    body{
+        padding: 5px 0;
+        margin: 0;
+    }
+    .mobile nav.open {
+        width: 51vw;
+        height: 96vh;
+        right: 26px;
+    }
+    .mobile ul li a {
+        font-size: 20px;
+    }
+    .mobile ul li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 896px){
+    body{
+        padding: 8px 5px;
+        
+    }
+    .article {
+        margin-top: 0px;
+    }
+    .title{
+        font-size: 34px;
+    }
+
+    .main__text{
+        font-size: 19px;
+        margin-bottom: 22px;
+    }
+    
+    .mobile nav.open {
+        width: 58vw;
+    }
+    .download{
+        font-size: 13px;
+    }
+    .bottom_img {
+        margin-top: 23px;
+    }
+    .footer{
+        padding: 6px 55px;
+        margin-top: 12px;
+    }
+
+    .footer_block{
+        margin-top: 20px;
+        width: 36%;
+        justify-content: space-between;
+    }
+    .mobile ul li:not(:last-child) {
+        margin-bottom: 2px;
+    }
+    .mobile ul li a {
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 821px){
+    .mobile nav.open {
+        width: 66vw;
+    }
+    .mobile ul li a {
+        font-size: 18px;
+    }
+    
+    .mobile nav.open {
+        width: 64vw;
+    }
+}
+
+@media (max-width: 769px){
+    .main_block {
+        padding: 10px;
+    }
+    .article{
+        padding: 0;
+    }
+   
+    .mobile nav.open {
+        height: 97vh;
+        bottom: 0px;
+        top: 8px;
+        right: 0;
+        width: 61vw;
+    }
+    .mobile nav {
+        right: 0;
+        top: 0;
+    }
+    .mobile div {
+        border: 2px solid #0C12A4;
+    }
+    .search{
+        border: 2px solid #0C12A4;
+    }
+    .main_img {
+        width: 44%;
+    }
+    .footer {
+        padding: 6px 30px;
+    }
+}
+
+@media (max-width: 482px){
+    .search {
+        width: 97px;
+        padding: 3px 3px;
+        border: 1px solid #0C12A4;
+    }
+    .search__icon{
+        width: 18px;
+    }   
+    .search_btn {
+        top: 11px;
+        right: 6px;
+    }
+    .mobile div {
+        border: 1px solid #0C12A4;
+    }
+    
+    .title{
+        font-size: 21px;
+        letter-spacing: 0.08em;
+    } 
+    .main__text {
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+
+    .download {
+        font-size: 11px;
+    }
+    .bottom_img {
+        margin-top: 15px;
+    }
+    .article__title{
+        font-size: 18px;
+    }
+    .article__text {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .footer_block {
+        margin-top: 10px;
+        width: 48%;
+    }
+    .mobile nav.open {
+        width: 90vw;
+        height: 91vh;
+    }
+    .mobile nav{
+        padding: 7px 50px;
+    }
+    .mobile ul li:not(:last-child) {
+        margin-bottom: 9px;
+    }
+    .mobile ul li {
+        line-height: 01;
+    }
+    .mobile ul li a {
+        font-size: 17px;
+    }
+    .gallery_item {
+        width: 45%;
+    }
+}
+@media (max-width: 413px){
+    .title {
+        font-size: 16px;
+        letter-spacing: 0.08em;
+    }
+    .gallery_item {
+        width: 98%;
+    }
+    .mobile nav.open {
+        width: 95vw;
+    }
+    .contacts {
+        font-size: 15px;
+    }
+    .search {
+        width: 81px;
+        padding: 3px 7px;
+    }
+    .search_btn {
+        top: 10px;
+        right: 9px;
+    }
+    .search__icon {
+        width: 16px;
+    }
+}
+
+@media (max-width: 376px){
+    body{
+        padding: 0;
+    }
+    .main_block {
+        padding: 6px;
+    }
+    .search {
+        width: 73px;
+        padding: 2px 5px;
+    }
+    .search__icon{
+        width: 15px;
+    }
+    .search_btn {
+        
+        top: 10px;
+        right: 7px;
+    }
+    .header{
+        padding: 3px;
+    }
+    .title {
+        font-size: 18px;
+        letter-spacing: 0.03em;
+    }
+    .main__text{
+        margin-top: 5px;
+        margin-top: 12px;
+    }
+    
+    .footer {
+        padding: 6px 13px;
+    }
+    .footer_block {
+        display: block;
+        margin-top: 2px;
+        width: 100%;
+    
+    }
+    .footer_link {
+        margin-top: 7px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .footer__text{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .mobile nav.open {
+        width: 100vw;
+    }
+    .mobile ul li a {
+        font-size: 17px;
+    }
+    .gallery_item {
+        margin-top: 6px;
+    }
+    
+}
+
+
+
+@media (max-height: 610px){
+    .mobile ul li:not(:last-child) {
+        margin-bottom: -3px;
+    }
+}
